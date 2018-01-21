@@ -45,6 +45,8 @@ complete -c pandoc -x -s f -s r -l from -l read      -a "$informats"
 complete -c pandoc -x -s t -s w -l to -l write       -a "$outformats"
 complete -c pandoc -x -s D -l print-default-template -a "$outformats"
 
+# TODO: add support for enabling and disabling extensions using the +/- switches
+
 # options that take directories
 complete -c pandoc -x -l data-dir      -a "(__fish_complete_directories (commandline -ct) "")"
 complete -c pandoc -x -l extract-media -a "(__fish_complete_directories (commandline -ct) "")"
