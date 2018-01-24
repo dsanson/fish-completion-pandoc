@@ -6,7 +6,7 @@ set datadir "$HOME/.pandoc"
 # options that take no arguments
 complete -c pandoc -s p -l preserve-tabs
 complete -c pandoc -l file-scope
-complete -c pandoc -s s -l stand-alone
+complete -c pandoc -s s -l standalone
 complete -c pandoc -l strip-comments
 complete -c pandoc -l toc -l table-of-contents
 complete -c pandoc -l no-highlight
