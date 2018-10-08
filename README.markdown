@@ -6,6 +6,6 @@ Fish completion support for [pandoc](http://pandoc.org/). To install, copy
 
 Or, if you are using fisherman:
 
-   fisher install dsanson/fish-completion-pandoc
+   fisher add dsanson/fish-completion-pandoc
 
 
